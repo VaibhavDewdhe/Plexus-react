@@ -1,14 +1,14 @@
 import {useState} from 'react';
 
 const Counter = function(){
-    const arr = useState(0);
+    const [count, setCount] = useState(0);
 
     function increment(){
-        arr[1](arr[0] + 1);
-        console.log('Count is ', arr[0]);
+        setCount(count + 1);
+        console.log('Count is ', count);
     }
 
-    return <button onClick={increment}>Count is {arr[0]}</button>
+    return <button onClick={increment}>Count is {count}</button>
 }
 
 export default Counter;

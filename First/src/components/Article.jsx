@@ -1,7 +1,7 @@
-const Article = (kahipan)=>{
+const Article = ({title, description})=>{
     return <div>
-        <h1>{kahipan.title}</h1>
-        <p>{kahipan.description}</p>
+        <h1>{title}</h1>
+        <p>{description}</p>
     </div>
 }
 

@@ -1,10 +1,13 @@
-import Article from "./components/Article"
-import Counter from "./components/Counter"
+import HomePage from "./components/HomePage"
+import LifeCycle from "./components/LifeCycle"
+import ProductList from "./components/ProductList"
+
 const App = () => {
-  return <div>
-    <Counter/>
-  </div>
+ 
+  return (
+    // <ProductList/>
+    <HomePage/>
+  )
 }
 
 export default App
-

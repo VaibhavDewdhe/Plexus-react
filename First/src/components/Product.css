@@ -1,0 +1,23 @@
+.product{
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image{
+    border: 1px solid brown;
+    margin: 5px;
+    width: 32%;
+}
+
+.image img{
+    width: 100%;
+}
+
+.data{
+    border: 1px solid red;
+    margin: 5px;
+    width: 65%;
+    padding: 5px;
+}
